@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3511D4012212CD190084B5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511D4002212CD190084B5FF /* AppDelegate.swift */; };
+		3511D4032212CD190084B5FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511D4022212CD190084B5FF /* ViewController.swift */; };
+		3511D4062212CD190084B5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3511D4042212CD190084B5FF /* Main.storyboard */; };
+		3511D40B2212CD1A0084B5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3511D4092212CD1A0084B5FF /* LaunchScreen.storyboard */; };
+		3511D4162212CD1A0084B5FF /* HelloJokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511D4152212CD1A0084B5FF /* HelloJokerTests.swift */; };
+		3511D4212212CD1A0084B5FF /* HelloJokerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511D4202212CD1A0084B5FF /* HelloJokerUITests.swift */; };
+		3511D42F2212E7790084B5FF /* Assets 03-36-46-711.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3511D42E2212E7790084B5FF /* Assets 03-36-46-711.xcassets */; };
+		3511D4312212E7D10084B5FF /* 211566__ballistiq85__laugh-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3511D4302212E7D10084B5FF /* 211566__ballistiq85__laugh-1.wav */; };
+		3511D4332212E8C70084B5FF /* 320905__suzenako__the-ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3511D4322212E8C60084B5FF /* 320905__suzenako__the-ding.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3511D4122212CD1A0084B5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3511D3F52212CD190084B5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3511D3FC2212CD190084B5FF;
+			remoteInfo = HelloJoker;
+		};
+		3511D41D2212CD1A0084B5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3511D3F52212CD190084B5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3511D3FC2212CD190084B5FF;
+			remoteInfo = HelloJoker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3511D3FD2212CD190084B5FF /* HelloJoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloJoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3511D4002212CD190084B5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3511D4022212CD190084B5FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3511D4052212CD190084B5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3511D40A2212CD1A0084B5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3511D40C2212CD1A0084B5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3511D4112212CD1A0084B5FF /* HelloJokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloJokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3511D4152212CD1A0084B5FF /* HelloJokerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloJokerTests.swift; sourceTree = "<group>"; };
+		3511D4172212CD1A0084B5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3511D41C2212CD1A0084B5FF /* HelloJokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloJokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3511D4202212CD1A0084B5FF /* HelloJokerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloJokerUITests.swift; sourceTree = "<group>"; };
+		3511D4222212CD1A0084B5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3511D42E2212E7790084B5FF /* Assets 03-36-46-711.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets 03-36-46-711.xcassets"; path = "../../../.Trash/Assets 03-36-46-711.xcassets"; sourceTree = "<group>"; };
+		3511D4302212E7D10084B5FF /* 211566__ballistiq85__laugh-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "211566__ballistiq85__laugh-1.wav"; path = "../211566__ballistiq85__laugh-1.wav"; sourceTree = "<group>"; };
+		3511D4322212E8C60084B5FF /* 320905__suzenako__the-ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "320905__suzenako__the-ding.wav"; path = "../320905__suzenako__the-ding.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3511D3FA2212CD190084B5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511D40E2212CD1A0084B5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511D4192212CD1A0084B5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3511D3F42212CD190084B5FF = {
+			isa = PBXGroup;
+			children = (
+				3511D3FF2212CD190084B5FF /* HelloJoker */,
+				3511D4142212CD1A0084B5FF /* HelloJokerTests */,
+				3511D41F2212CD1A0084B5FF /* HelloJokerUITests */,
+				3511D3FE2212CD190084B5FF /* Products */,
+				3511D4302212E7D10084B5FF /* 211566__ballistiq85__laugh-1.wav */,
+				3511D4322212E8C60084B5FF /* 320905__suzenako__the-ding.wav */,
+			);
+			sourceTree = "<group>";
+		};
+		3511D3FE2212CD190084B5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3511D3FD2212CD190084B5FF /* HelloJoker.app */,
+				3511D4112212CD1A0084B5FF /* HelloJokerTests.xctest */,
+				3511D41C2212CD1A0084B5FF /* HelloJokerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3511D3FF2212CD190084B5FF /* HelloJoker */ = {
+			isa = PBXGroup;
+			children = (
+				3511D4002212CD190084B5FF /* AppDelegate.swift */,
+				3511D4022212CD190084B5FF /* ViewController.swift */,
+				3511D4042212CD190084B5FF /* Main.storyboard */,
+				3511D42E2212E7790084B5FF /* Assets 03-36-46-711.xcassets */,
+				3511D4092212CD1A0084B5FF /* LaunchScreen.storyboard */,
+				3511D40C2212CD1A0084B5FF /* Info.plist */,
+			);
+			path = HelloJoker;
+			sourceTree = "<group>";
+		};
+		3511D4142212CD1A0084B5FF /* HelloJokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3511D4152212CD1A0084B5FF /* HelloJokerTests.swift */,
+				3511D4172212CD1A0084B5FF /* Info.plist */,
+			);
+			path = HelloJokerTests;
+			sourceTree = "<group>";
+		};
+		3511D41F2212CD1A0084B5FF /* HelloJokerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3511D4202212CD1A0084B5FF /* HelloJokerUITests.swift */,
+				3511D4222212CD1A0084B5FF /* Info.plist */,
+			);
+			path = HelloJokerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3511D3FC2212CD190084B5FF /* HelloJoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3511D4252212CD1A0084B5FF /* Build configuration list for PBXNativeTarget "HelloJoker" */;
+			buildPhases = (
+				3511D3F92212CD190084B5FF /* Sources */,
+				3511D3FA2212CD190084B5FF /* Frameworks */,
+				3511D3FB2212CD190084B5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloJoker;
+			productName = HelloJoker;
+			productReference = 3511D3FD2212CD190084B5FF /* HelloJoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3511D4102212CD1A0084B5FF /* HelloJokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3511D4282212CD1A0084B5FF /* Build configuration list for PBXNativeTarget "HelloJokerTests" */;
+			buildPhases = (
+				3511D40D2212CD1A0084B5FF /* Sources */,
+				3511D40E2212CD1A0084B5FF /* Frameworks */,
+				3511D40F2212CD1A0084B5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3511D4132212CD1A0084B5FF /* PBXTargetDependency */,
+			);
+			name = HelloJokerTests;
+			productName = HelloJokerTests;
+			productReference = 3511D4112212CD1A0084B5FF /* HelloJokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3511D41B2212CD1A0084B5FF /* HelloJokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3511D42B2212CD1A0084B5FF /* Build configuration list for PBXNativeTarget "HelloJokerUITests" */;
+			buildPhases = (
+				3511D4182212CD1A0084B5FF /* Sources */,
+				3511D4192212CD1A0084B5FF /* Frameworks */,
+				3511D41A2212CD1A0084B5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3511D41E2212CD1A0084B5FF /* PBXTargetDependency */,
+			);
+			name = HelloJokerUITests;
+			productName = HelloJokerUITests;
+			productReference = 3511D41C2212CD1A0084B5FF /* HelloJokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3511D3F52212CD190084B5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ding Ding";
+				TargetAttributes = {
+					3511D3FC2212CD190084B5FF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3511D4102212CD1A0084B5FF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3511D3FC2212CD190084B5FF;
+					};
+					3511D41B2212CD1A0084B5FF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3511D3FC2212CD190084B5FF;
+					};
+				};
+			};
+			buildConfigurationList = 3511D3F82212CD190084B5FF /* Build configuration list for PBXProject "HelloJoker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3511D3F42212CD190084B5FF;
+			productRefGroup = 3511D3FE2212CD190084B5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3511D3FC2212CD190084B5FF /* HelloJoker */,
+				3511D4102212CD1A0084B5FF /* HelloJokerTests */,
+				3511D41B2212CD1A0084B5FF /* HelloJokerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3511D3FB2212CD190084B5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3511D4332212E8C70084B5FF /* 320905__suzenako__the-ding.wav in Resources */,
+				3511D4312212E7D10084B5FF /* 211566__ballistiq85__laugh-1.wav in Resources */,
+				3511D40B2212CD1A0084B5FF /* LaunchScreen.storyboard in Resources */,
+				3511D42F2212E7790084B5FF /* Assets 03-36-46-711.xcassets in Resources */,
+				3511D4062212CD190084B5FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511D40F2212CD1A0084B5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511D41A2212CD1A0084B5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3511D3F92212CD190084B5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3511D4032212CD190084B5FF /* ViewController.swift in Sources */,
+				3511D4012212CD190084B5FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511D40D2212CD1A0084B5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3511D4162212CD1A0084B5FF /* HelloJokerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511D4182212CD1A0084B5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3511D4212212CD1A0084B5FF /* HelloJokerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3511D4132212CD1A0084B5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3511D3FC2212CD190084B5FF /* HelloJoker */;
+			targetProxy = 3511D4122212CD1A0084B5FF /* PBXContainerItemProxy */;
+		};
+		3511D41E2212CD1A0084B5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3511D3FC2212CD190084B5FF /* HelloJoker */;
+			targetProxy = 3511D41D2212CD1A0084B5FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3511D4042212CD190084B5FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3511D4052212CD190084B5FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3511D4092212CD1A0084B5FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3511D40A2212CD1A0084B5FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3511D4232212CD1A0084B5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3511D4242212CD1A0084B5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3511D4262212CD1A0084B5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2ZBGCEYQ4;
+				INFOPLIST_FILE = HelloJoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ding.HelloJoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3511D4272212CD1A0084B5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2ZBGCEYQ4;
+				INFOPLIST_FILE = HelloJoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ding.HelloJoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3511D4292212CD1A0084B5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloJokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ding.HelloJokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloJoker.app/HelloJoker";
+			};
+			name = Debug;
+		};
+		3511D42A2212CD1A0084B5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloJokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ding.HelloJokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloJoker.app/HelloJoker";
+			};
+			name = Release;
+		};
+		3511D42C2212CD1A0084B5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloJokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ding.HelloJokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloJoker;
+			};
+			name = Debug;
+		};
+		3511D42D2212CD1A0084B5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloJokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ding.HelloJokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloJoker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3511D3F82212CD190084B5FF /* Build configuration list for PBXProject "HelloJoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3511D4232212CD1A0084B5FF /* Debug */,
+				3511D4242212CD1A0084B5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3511D4252212CD1A0084B5FF /* Build configuration list for PBXNativeTarget "HelloJoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3511D4262212CD1A0084B5FF /* Debug */,
+				3511D4272212CD1A0084B5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3511D4282212CD1A0084B5FF /* Build configuration list for PBXNativeTarget "HelloJokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3511D4292212CD1A0084B5FF /* Debug */,
+				3511D42A2212CD1A0084B5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3511D42B2212CD1A0084B5FF /* Build configuration list for PBXNativeTarget "HelloJokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3511D42C2212CD1A0084B5FF /* Debug */,
+				3511D42D2212CD1A0084B5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3511D3F52212CD190084B5FF /* Project object */;
+}
